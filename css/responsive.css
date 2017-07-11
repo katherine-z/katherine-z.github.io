@@ -1,0 +1,69 @@
+@media screen and (max-width: 800px) {
+
+    section {
+        width: 100%;
+    }
+
+    header img {
+        display: none;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .cols.col-1,
+    .cols.col-2,
+    .cols.col-3,
+    .cols.col-4,
+    .cols.col-5,
+    .cols.col-6,
+    .cols.col-7,
+    .cols.col-8,
+    .cols.col-9,
+    .cols.col-10,
+    .cols.col-11,
+    .cols.col-12 {
+        width: 100%;
+    }
+
+	@media only screen and (max-width: 363px) {
+	    footer .communication i {
+	        display: none;
+	    }
+	}
+
+	@media screen and (max-width: 670px) {
+		header {
+			background: url("../img/bg_tree_mini.jpg") no-repeat center center;
+			background-size: cover;
+			padding: 5rem 0 3rem;
+		}
+	}
+
+	@media screen and (min-width: 671px) {
+		header {
+			background: url("../img/bg_tree.jpg") no-repeat center center;
+			background-size: cover;
+			padding: 9rem 0 3rem;
+		}
+	}
+}
+
+@media screen and (min-width: 801px) {
+	header {
+		background: url("../img/bg_tree.jpg") no-repeat center center;
+		background-size: cover;
+		padding: 9rem 0 3rem;
+	}
+
+	section {
+        width: 65%;
+    }
+
+	@media screen and (max-width: 900px) {
+		section {
+	        width: 100%;
+	    }
+	}
+}
